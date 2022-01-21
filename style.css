@@ -167,6 +167,11 @@ a {
   margin: 0;
 }
 
+.card-body a {
+  color: rgb(43, 43, 255);
+  text-decoration: underline;
+}
+
 .card-footer {
   border-top: solid 1px #DBDBDB;
   background: #FBFBFB;
