@@ -196,6 +196,58 @@ a {
   background: url(img/comment.svg) center center no-repeat;
 }
 
+.sidebar-title {
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+
+.sidebar-title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin-top: 4px;
+  background: black;
+}
+
+.suggestion {
+  margin: 14px 0;
+  display: flex;
+}
+
+.suggestion-avatar {
+  height: 73px;
+  width: 73px;
+  flex: none;
+  margin-right: 10px;
+}
+
+.suggestion-name {
+  display: block;
+  font-weight: bold;
+  color: black;
+}
+
+.suggestion-mutual {
+  font-size: 16px;
+}
+
+.suggestion-add {
+  font-size: 14px;
+color: black;
+}
+
+.suggestion-add::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 13px;
+  background: url(img/add-friend.svg) center center / 18px 13px no-repeat;
+}
+
 @media only screen and (min-width: 585px) {
   .topbar {
     display: flex;
