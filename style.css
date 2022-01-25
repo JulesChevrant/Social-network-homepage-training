@@ -230,10 +230,16 @@ a {
   margin-right: 10px;
 }
 
+.suggestion-body {
+  display: flex;
+  flex-direction: column;
+}
+
 .suggestion-name {
   display: block;
   font-weight: bold;
   color: black;
+  font-size: 16px;
 }
 
 .suggestion-mutual {
@@ -242,7 +248,8 @@ a {
 
 .suggestion-add {
   font-size: 14px;
-color: black;
+  color: black;
+  margin-top: auto;
 }
 
 .suggestion-add::before {
@@ -251,6 +258,7 @@ color: black;
   width: 18px;
   height: 13px;
   background: url(img/add-friend.svg) center center / 18px 13px no-repeat;
+  margin-right: 5px;
 }
 
 @media only screen and (min-width: 585px) {
