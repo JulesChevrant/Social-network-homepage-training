@@ -205,6 +205,10 @@ a {
   background: url(img/comment.svg) center center no-repeat;
 }
 
+.profile-card {
+  display: none;
+}
+
 .sidebar-title {
   font-weight: bold;
   color: black;
@@ -290,6 +294,10 @@ a {
 @media only screen and (min-width: 992px) {
   .site {
     display: flex;
+  }
+
+  .profile-card {
+    display: block;
   }
 
   .sidebar {
