@@ -114,6 +114,10 @@ a {
   opacity: 1;
 }
 
+.main {
+  margin-bottom: 20px;
+}
+
 .card {
   border: solid 1px #DBDBDB;
   background: white;
@@ -252,6 +256,7 @@ a {
   font-size: 14px;
   color: black;
   margin-top: auto;
+  margin-bottom: 3px;;
 }
 
 .suggestion-add::before {
