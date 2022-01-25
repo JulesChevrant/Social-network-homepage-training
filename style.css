@@ -148,14 +148,14 @@ a {
 .card-title {
   font-weight: bold;
   color: black;
-  margin: 5px 0;
   padding-left: 65px;
+  margin-top: 5px;
 }
 
 .card-timer {
   color: rgba(0, 0, 0, 0.38);
   font-size: 14px;
-  margin: 5px 0;
+  margin-bottom: 5px;
   padding-left: 65px;
 }
 
