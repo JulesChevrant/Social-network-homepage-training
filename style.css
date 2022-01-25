@@ -150,7 +150,7 @@ a {
 
 .card-timer {
   color: rgba(0, 0, 0, 0.38);
-  font-size: 12px;
+  font-size: 14px;
   margin: 5px 0;
   padding-left: 65px;
 }
@@ -240,10 +240,12 @@ a {
   font-weight: bold;
   color: black;
   font-size: 16px;
+  margin-bottom: 5px;
 }
 
 .suggestion-mutual {
-  font-size: 16px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.38);
 }
 
 .suggestion-add {
@@ -257,8 +259,10 @@ a {
   display: inline-block;
   width: 18px;
   height: 13px;
+  transform: translateY(-1px);
   background: url(img/add-friend.svg) center center / 18px 13px no-repeat;
   margin-right: 5px;
+  vertical-align: middle;
 }
 
 @media only screen and (min-width: 585px) {
